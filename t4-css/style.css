@@ -1,38 +1,33 @@
-/* Thiết lập cho toàn bộ thân trang web */
 body {
-    font-family: Georgia, "Times New Roman", serif; /* Đổi sang font chữ có chân giống mẫu */
+    font-family: Georgia, "Times New Roman", serif; 
     color: #380b0b; 
-    padding: 30px; /* Tạo khoảng cách từ chữ ra tới viền */
+    padding: 30px; 
     margin: 20px;
-    border: 1px dashed #7a8ca1; /* Tạo đường viền nét đứt màu xám xanh bao quanh trang */
+    border: 1px dashed #7a8ca1; 
     background-color: #ffffff;
 }
 
-/* Tiêu đề 1 */
 h1 {
-    font-size: 18px; /* Cỡ chữ nhỏ gọn lại */
-    font-weight: normal; /* Không in đậm */
+    font-size: 18px; 
+    font-weight: normal; 
     margin-top: 0;
 }
 
-/* Tiêu đề 2 */
 h2 {
-    color: #4e13d7; /* Màu cam đất đặc trưng của mục Our mission */
+    color: #4e13d7; 
     font-size: 24px;
-    margin-top: 30px; /* Cách xa đoạn văn phía trên ra một chút */
+    margin-top: 30px; 
 }
 
-/* Đoạn văn */
 p {
-    line-height: 1.8; /* Khoảng cách giữa các dòng chữ thoáng hơn (text breathes) */
+    line-height: 1.8; 
     font-size: 16px;
 }
 
-/* Hình ảnh */
 img {
-    border: 2px solid #e2e8f0; /* Viền mỏng màu xám nhạt */
-    border-radius: 6px; /* Bo tròn các góc của khung ảnh */
-    padding: 4px; /* Khoảng cách từ viền vào tới chữ/ảnh bên trong */
-    background-color: #f8fafc; /* Nền xám rất nhạt cho khung ảnh lỗi */
+    border: 2px solid #e2e8f0; 
+    border-radius: 6px; 
+    padding: 4px; 
+    background-color: #f8fafc; 
     color: #333333;
 }
